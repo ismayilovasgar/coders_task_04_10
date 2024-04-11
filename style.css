@@ -19,16 +19,18 @@ table {
   margin: 5px auto;
 }
 
-tr{
+tr {
   padding: 10px 20px;
 }
+td,
 th {
-  padding: 20px ;
+  padding: 20px;
   border: 1px solid black;
   font-size: 18px;
+  text-align: center;
 }
 .order {
-  padding: 20px ;
+  padding: 20px;
 }
 .add_item {
   font-size: 18px;
@@ -44,16 +46,16 @@ th {
   background-color: red;
 }
 
-input{
+input {
   padding: 10px 7px;
 }
-.save{
-  padding: 10px 8px ;
+.save {
+  padding: 10px 8px;
 }
-.delete{
+.delete {
   padding: 10px 30px;
 }
-.operation_container{
+.operation_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
