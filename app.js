@@ -2,7 +2,9 @@ const thead = document.getElementById("thead");
 const add_item_btn = document.getElementById("add_item");
 
 //* add operation items
-
+document.addEventListener("load", (e) => {
+  e.preventDefault();
+});
 //*
 let i_order = 0;
 add_item_btn.addEventListener("click", (e) => {
